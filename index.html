@@ -49,8 +49,8 @@
                             </button>
                         </div>
 
-                        <div class=" h-full overflow-hidden relative w-full z-0 flex py-0">
-                            <div class="select-none  h-full p-0 m-0 block items-start max-sm:flex max-sm:flex-row max-md:flex max-md:flex-row"
+                        <div class="h-full overflow-hidden relative w-full z-0 flex py-0">
+                            <div class="select-none overflow-hidden h-full p-0 m-0 block items-start max-sm:flex max-sm:flex-row max-md:flex max-md:flex-row"
                                 style="transform: translateY(0px);">
                                 <template x-for="(gallery, index) in product.galleries" :key="index">
                                     <div :class="(activeSlide === index ? 'thumbnail-active' : '') + ' thumbnail flex-col lg:w-full lg:max-w-full bg-cover  flex-shrink-0 list-none items-center flex justify-center relative cursor-pointer rounded'"
